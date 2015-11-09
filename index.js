@@ -1,7 +1,8 @@
 var fs = require('fs');
+var path = require('path');
 var cowsay = require('cowsay');
 
-var jokes = fs.readFileSync('jokes.json', 'utf8');
+var jokes = fs.readFileSync(path.join(__dirname,'jokes.json'), 'utf8');
 parseJokes(jokes);
 
 function parseJokes(res) {
@@ -14,4 +15,3 @@ function parseJokes(res) {
     e: "oO",
     T: "U "
   }));
-}
