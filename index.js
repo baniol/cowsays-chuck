@@ -15,3 +15,4 @@ function parseJokes(res) {
     e: "oO",
     T: "U "
   }));
+}
