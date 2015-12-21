@@ -10,7 +10,7 @@ All jokes are coutesy of `http://api.icndb.com/jokes/`.
 
 Just clone the repo and run "npm install" in the repo directory.
 
-If you want the cow throwing a joke on a user logging into a remote terminal, just add `<path_to_the_repo> node index.js` into the `~/.bashrc` or `~/.bash_profile` files.
+If you want the cow throwing a joke on a user logging into a remote terminal, just add `node <path_to_the_repo>/index.js` into the `~/.bashrc` or `~/.bash_profile` files.
 
 ### Updating joke list
 
